@@ -1,0 +1,13 @@
+.account {
+  display: flex;
+  gap: 24px;
+
+  a {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+  }
+
+  a:hover {
+    background-color: #ededed;
+  }
+}

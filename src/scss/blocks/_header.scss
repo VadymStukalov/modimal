@@ -1,16 +1,28 @@
 .header {
-	background-color: #c0e4f4;
-	padding: 50px 0;
-
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
+  padding: 16px 0 18px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
+.header__logo {
+}
+.logo {
+}
 .header__nav {
-	@include tablet {
-		display: none;
-	}
+}
+
+.header__account {
+}
+.account {
+}
+
+.header__nav-btn {
+  display: none;
+}
+.mobile-nav-btn {
+}
+.nav-icon {
 }
