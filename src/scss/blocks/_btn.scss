@@ -11,4 +11,13 @@ a.btn {
   line-height: 171%;
   text-transform: capitalize;
   color: var(--black);
+  display: inline-block;
+  a.btn:hover {
+    background-color: #ededed;
+  }
+  &--small {
+    min-width: unset;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
