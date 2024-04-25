@@ -21,11 +21,6 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
 });
 
 // Мобильная навигация
