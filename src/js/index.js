@@ -15,11 +15,18 @@ const swiper = new Swiper(".swiper", {
   // Optional parameters
 
   loop: true,
-  slidesPerView: 3,
-  spaceBetween: 24,
+  slidesPerView: 2,
+  spaceBetween: 16,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+
+  breakpoints: {
+    780: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+    },
   },
 });
 

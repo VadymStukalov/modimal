@@ -5,10 +5,14 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
+
+  @include mobile {
+    margin-bottom: 8px;
+  }
 }
 
-.best__cards {
-  // display: grid;
-  // grid-template-columns: repeat(3, 1fr);
-  // gap: 24px;
+.best__link {
+  @include mobile {
+    display: none;
+  }
 }

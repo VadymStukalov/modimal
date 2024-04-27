@@ -12,6 +12,8 @@ a.btn {
   text-transform: capitalize;
   color: var(--black);
   display: inline-block;
+  transition: all 0.2s ease-in;
+
   a.btn:hover {
     background-color: #ededed;
   }
@@ -19,5 +21,20 @@ a.btn {
     min-width: unset;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  &:hover {
+    background: var(--neutral-grayededed);
+  }
+
+  @include mobile {
+    padding: 8px 9px;
+    min-width: unset;
+  }
+  &--mobile-wide {
+    @include mobile {
+      width: 100%;
+      text-align: left;
+    }
   }
 }

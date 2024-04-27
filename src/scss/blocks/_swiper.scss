@@ -1,11 +1,19 @@
 .swiper {
-  width: 1224px;
+  width: 100%;
   padding-bottom: 32px !important;
+  @include mobile {
+    padding-bottom: 20px;
+  }
   .swiper-pagination-bullet {
     width: 14px;
     height: 14px;
     background-color: var(--neutral-grayadadad);
     opacity: 1;
+
+    @include mobile {
+      width: 8px;
+      height: 8px;
+    }
   }
   .swiper-pagination-bullet-active {
     background-color: var(--neutral-graydfdfdf);

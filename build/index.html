@@ -33,9 +33,16 @@
 							<li><a href="#!">Sustainability</a></li>
 						</ul>
 					</nav>
-					<div class="header__account">
+					<div class="header__account header__account--first">
 						<ul class="account">
-							<li>
+							<li class="account__menu">
+								<a href="#!">
+									<svg class="icon icon--menu">
+										<use href="./img/svgsprite/sprite.symbol.svg#menu"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="account__search ">
 								<a href="#!">
 									<svg class="icon icon--search">
 										<use href="./img/svgsprite/sprite.symbol.svg#search"></use>
@@ -49,6 +56,10 @@
 									</svg>
 								</a>
 							</li>
+						</ul>
+					</div>
+					<div class="header__account header__account--second">
+						<ul class="account">
 							<li>
 								<a href="#!">
 									<svg class="icon icon--favorite">
@@ -317,7 +328,7 @@
 									</picture>
 								</div>
 								<div class="card-collection__link">
-									<a class="btn" href="#!">Blouses</a>
+									<a class="btn btn--mobile-wide" href="#!">Blouses</a>
 								</div>
 							</article>
 							<article class="card-collection">
@@ -329,7 +340,7 @@
 									</picture>
 								</div>
 								<div class="card-collection__link">
-									<a class="btn" href="#!">Dresses</a>
+									<a class="btn btn--mobile-wide" href="#!">Dresses</a>
 								</div>
 							</article>
 						</div>
@@ -343,7 +354,7 @@
 									</picture>
 								</div>
 								<div class="card-collection__link">
-									<a class="btn" href="#!">Pants</a>
+									<a class="btn btn--mobile-wide" href="#!">Pants</a>
 								</div>
 							</article>
 							<article class="card-collection">
@@ -355,7 +366,7 @@
 									</picture>
 								</div>
 								<div class="card-collection__link">
-									<a class="btn" href="#!">Outwear</a>
+									<a class="btn btn--mobile-wide" href="#!">Outwear</a>
 								</div>
 							</article>
 						</div>
@@ -364,7 +375,7 @@
 			</section>
 			<section class="follow">
 				<div class="container">
-					<h2 class="follow__title">Follow us</h2>
+					<h2 class="follow__title title">Follow us</h2>
 					<div class="follow__grid">
 						<picture>
 							<source srcset="./img/follow/follow-01.webp 1x, ./img/follow/follow-01@2x.webp 2x" type="image/webp" />
