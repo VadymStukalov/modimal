@@ -8,6 +8,8 @@
   letter-spacing: 0.07em;
   text-align: center;
   color: var(--white);
+  position: relative;
+  z-index: 199;
 
   @include mobile {
     font-weight: 600;

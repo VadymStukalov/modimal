@@ -33,3 +33,8 @@ const swiper = new Swiper(".swiper", {
 // Мобильная навигация
 import mobileNav from "./modules/mobile-nav.js";
 mobileNav();
+
+// Accordion
+
+import accordion from "./modules/accordion.js";
+accordion();

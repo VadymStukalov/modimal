@@ -1,5 +1,6 @@
 .account {
   display: flex;
+  align-items: center;
   gap: 24px;
 
   @include tablet {
@@ -23,6 +24,8 @@
 }
 .account__menu {
   display: none;
+  display: flex;
+  align-items: center;
   @include mobile {
     display: block;
   }
