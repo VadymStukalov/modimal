@@ -5,4 +5,4 @@
 - Gulp,
 - JS
 
-[Смотреть демо](https://github.com/VadymStukalov/modimal/)
+[Смотреть демо](https://vadymstukalov.github.io/modimal/)
